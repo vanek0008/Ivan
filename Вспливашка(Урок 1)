@@ -18,3 +18,7 @@ $(".mc_item_wrap ul").each(function() {
 
 //збільшення картинки і можливість їх листати
 <a href="img/_ex_1.jpg" class="fancybox" data-fancybox-group="group"><img src="img/_ex_1.jpg" alt="alt" /></a>
+
+//вирівнювання всіх елементів під одну висоту
+var eqElement = ".element"
+	$(window).load(function(){equalheight(eqElement);}).resize(function(){equalheight(eqElement);});
