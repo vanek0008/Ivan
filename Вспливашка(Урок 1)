@@ -1,3 +1,4 @@
+//всплваюче меню
 $(".mc_item_wrap ul").each(function() { 
     $(this).after("<div class='mc_item_wrap_af'></div>");
   });
@@ -14,4 +15,6 @@ $(".mc_item_wrap ul").each(function() {
 		$(this).parent().parent().children(".mc_item_wrap_af").show();
 	}
 });
-//вспливашка з 1 уроку
+
+//збільшення картинки і можливість їх листати
+<a href="img/_ex_1.jpg" class="fancybox" data-fancybox-group="group"><img src="img/_ex_1.jpg" alt="alt" /></a>
