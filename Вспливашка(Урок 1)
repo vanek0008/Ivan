@@ -20,5 +20,5 @@ $(".mc_item_wrap ul").each(function() {
 <a href="img/_ex_1.jpg" class="fancybox" data-fancybox-group="group"><img src="img/_ex_1.jpg" alt="alt" /></a>
 
 //вирівнювання всіх елементів під одну висоту
-var eqElement = ".element"
+var eqElement = ".hi_item"
 	$(window).load(function(){equalheight(eqElement);}).resize(function(){equalheight(eqElement);});
